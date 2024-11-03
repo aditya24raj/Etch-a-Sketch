@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 100px;
+}
+
+main {
+  flex: 1;
+}
+
+#container {
+  display: flex;
+  height: 90vh;
+  max-width: 90vh;
+}
+
+button {
+  margin: 10px 0px;
+  background-color: rgb(51, 79, 234);
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+#current-size {
+  margin: 5px 0px;
+  font-weight: lighter;
+  color: gray;
+}
+
+#description {
+  margin: 0px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  color: gray;
+}
